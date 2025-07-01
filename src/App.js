@@ -7,6 +7,7 @@ import Courses from './components/Courses';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import UserList from './components/UserList';
+import TeacherList from './components/TeacherList';
 
 function App() {
   return (
@@ -16,7 +17,8 @@ function App() {
       <About />
       <Courses />
       <Contact /> */}
-      <UserList />
+      {/* <UserList /> */}
+      <TeacherList />
       <Footer />
     </div>
   );
